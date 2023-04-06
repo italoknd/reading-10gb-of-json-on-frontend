@@ -1,0 +1,40 @@
+Arguments: 
+  /home/italo/.nvm/versions/node/v19.8.1/bin/node /usr/local/bin/yarn dev
+
+PATH: 
+  /home/italo/.nvm/versions/node/v19.8.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.8.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/italo/Documents/GitHub/reading-10gb-of-json-on-frontend/server/package.json: Expected ',' or '}' after property value in JSON at position 189
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Italo Pedroza",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+      "dev": "node --watch index.js"
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
